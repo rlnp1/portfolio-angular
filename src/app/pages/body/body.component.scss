@@ -1,0 +1,30 @@
+
+.card {
+     margin: 10px;
+}
+.aligning1{
+     position: absolute;
+}
+
+.typed-out {
+     overflow: hidden;
+     color: white;
+     font-family: 'Roboto Mono', monospace;
+     font-weight: 900;
+     border-right: .15em solid orange;
+     white-space: nowrap;
+     animation:
+          typing 4s forwards;
+     font-size: 1.3rem;
+     width: 0;
+}
+
+@keyframes typing {
+     from {
+          width: 0
+     }
+
+     to {
+          width: 80%
+     }
+}
